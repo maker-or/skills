@@ -1,8 +1,7 @@
 ---
-
-## name: polarish
+name: polarish
 description: Guides building and debugging AI workflows with Polarish (@polarish/ai TypeScript SDK and @polarish/cli local bridge) where end users bring their own Codex or Claude Code subscriptions. Use when user mentions Polarish, polarish bridge, @polarish/ai, @polarish/cli, create client, generate versus run, agent loop with tools, MCP servers with Polarish, streaming and final(), message history, requiresApproval, origin or CORS with bridge, or debugging bridge connection errors.
-
+---
 # Polarish
 
 ## Overview
@@ -171,4 +170,3 @@ Before treating a Polarish integration as done:
 - Streams fully consumed and `**final()**` awaited; `**error**` events handled
 - Model ID valid for the chosen provider; user-facing choice preserved where applicable
 - No secrets in logs or persisted messages
-
